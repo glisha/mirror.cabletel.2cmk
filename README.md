@@ -16,11 +16,11 @@
 Убави сликички
 --------------
 
-![CableTEL](http://cabletel.com.mk/img/logo_cabletel.jpg)
-![Слободен софтвер Македонијаhttp://slobodensoftver.org.mk/files/garland_2s.mk_logo_0.png
-![Debian](http://www.debian.org/Pics/openlogo-50.png)
-![Centos](https://www.centos.org/themes/centos/images/centos_logo_45.png)
-![Fedora](http://fedoraproject.org/static/images/fedora-logo.png)
+* ![CableTEL](http://cabletel.com.mk/img/logo_cabletel.jpg)
+* ![Слободен софтвер Македонија](http://slobodensoftver.org.mk/files/garland_2s.mk_logo_0.png)
+* ![Debian](http://www.debian.org/Pics/openlogo-50.png)
+* ![Centos](https://www.centos.org/themes/centos/images/centos_logo_45.png)
+* ![Fedora](http://fedoraproject.org/static/images/fedora-logo.png)
 
 
 EPEL за centos/rhel
