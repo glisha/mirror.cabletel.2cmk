@@ -1,5 +1,27 @@
-2cmk & Cabletel mirror
-======================
+Локално .mk огледало за Fedora/Centos/Rhel/Debian
+=================================================
+
+За огледалото
+-------------
+
+[mirror.cabletel.com.mk][1] е локално огледало за Fedora/Centos/Rhel/Debian. 
+
+Серверот и интернет сообраќајот несебично го донира CableTEL. Човечките ресурси потребни за одржување на огледалото несебично го донираат [CableTEL][2] и [Слободен софтвер Македонија][3]. Доколку имаш прашања околу огледалото може да прашаш на јавната [поштенска листа][4].
+
+Доколку сакаш локално огледало за Ubuntu погледни [тука][5].
+
+*TODO: Внеси информации за серверот и некоја статистика можеби.*
+
+
+Убави сликички
+--------------
+
+![CableTEL](http://cabletel.com.mk/img/logo_cabletel.jpg)
+![Слободен софтвер Македонијаhttp://slobodensoftver.org.mk/files/garland_2s.mk_logo_0.png
+![Debian](http://www.debian.org/Pics/openlogo-50.png)
+![Centos](https://www.centos.org/themes/centos/images/centos_logo_45.png)
+![Fedora](http://fedoraproject.org/static/images/fedora-logo.png)
+
 
 EPEL за centos/rhel
 -------------------
@@ -72,3 +94,13 @@ Fedora mirror
 TODO
 
 
+Debian mirror
+-------------
+TODO
+
+
+[1]: http://mirror.cabletel.com.mk
+[2]: http://www.cabletel.com.mk
+[3]: http://www.slobodensoftver.org.mk
+[4]: http://lists.softver.org.mk/mailman/listinfo/ossm-members
+[5]: http://mirror.on.net.mk/ubuntu/
