@@ -74,6 +74,7 @@ EPEL за centos/rhel
     gpgkey=http://mirror.cabletel.com.mk/epel/RPM-GPG-KEY-EPEL
 
 или за RHEL6
+
     #cat > /etc/yum.repos.d/epel6mk.repo <<KRAJ
     [epel]
     name=Extra Packages for Enterprise Linux 6 - $basearch           
