@@ -10,7 +10,15 @@
 
 Доколку сакаш локално огледало за Ubuntu погледни [тука][5].
 
-*TODO: Внеси информации за серверот и некоја статистика можеби.*
+HW info:
+    Локација:   Скопје, Македонија
+    CPU:        XEON Dual-Core TODO: точен модел на процесорот
+    RAM:        3GB
+    HDD:        1TB
+    LINK:       1Gbps
+
+* TODO: Точен опис на сетапот со два сервери ова она.
+* TODO: Некоја статистика тука може да дојде.
 
 
 Убави сликички
@@ -89,6 +97,49 @@ EPEL за centos/rhel
     enabled=0
     gpgcheck=1
     gpgkey=http://mirror.cabletel.com.mk/epel/RPM-GPG-KEY-EPEL-6
+
+Centos mirror
+------------
+Centos огледалото е достапно на [mirror.cabletel.com.mk/centos/][6] за i386 и x86_64 архитектура.
+
+Пример yum.repo датотека за Centos 5.x кој го користи ова локално македонско огледало:
+
+    [base]
+    name=CentOS-$releasever - Base
+    baseurl=http://mirror.cabletel.com.mk/centos/$releasever/os/$basearch/
+    gpgcheck=1
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+    #released updates 
+    [updates]
+    name=CentOS-$releasever - Updates
+    baseurl=http://mirror.cabletel.com.mk/centos/$releasever/updates/$basearch/
+    gpgcheck=1
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+    #additional packages that may be useful
+    [extras]
+    name=CentOS-$releasever - Extras
+    baseurl=http://mirror.cabletel.com.mk/centos/$releasever/extras/$basearch/
+    gpgcheck=1
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+    #additional packages that extend functionality of existing packages
+    [centosplus]
+    name=CentOS-$releasever - Plus
+    baseurl=http://mirror.cabletel.com.mk/centos/$releasever/centosplus/$basearch/
+    gpgcheck=1
+    enabled=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+    
+    #contrib - packages by Centos Users
+    [contrib]
+    name=CentOS-$releasever - Contrib
+    baseurl=http://mirror.cabletel.com.mk/centos/$releasever/contrib/$basearch/
+    gpgcheck=1
+    enabled=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
 
 Fedora mirror
 ------------
