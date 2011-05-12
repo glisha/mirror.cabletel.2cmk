@@ -157,3 +157,4 @@ TODO
 [3]: http://www.slobodensoftver.org.mk
 [4]: http://lists.softver.org.mk/mailman/listinfo/ossm-members
 [5]: http://mirror.on.net.mk/ubuntu/
+[6]: http://mirror.cabletel.com.mk/centos/
